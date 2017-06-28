@@ -1,11 +1,15 @@
 ### Deep Learning (mostly Convolutional Neural Nets)
 [ Mxnet - Chest X-Ray image analysis using Deep Transfer Learning]( https://github.com/kperkins411/MXNet-Chest-XRay-Evaluation)<BR>
 [ Mxnet - version 0.9.4, elusive early stopping implementation example ]( https://github.com/kperkins411/MXNet_Demo_Early-Stopping)<BR>
+
 ### Machine Learning
-[ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)
+
 
 
 ### Augmented Reality
+[ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)
+[ Android,OpenCV - App that looks at an image, recognizes all coins and determines the total value. ]( https://github.com/kperkins411/Count-coins-using-OpenCV)
+
 
 ## Background
 Teaching, Crypto, SSL, C++, Android, Deep Learning
