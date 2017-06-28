@@ -1,4 +1,26 @@
-## Welcome to GitHub Pages
+### Deep Learning (mostly Convolutional Neural Nets)
+[ Mxnet - Chest X-Ray image analysis using Deep Transfer Learning]( https://github.com/kperkins411/MXNet-Chest-XRay-Evaluation)
+[ Mxnet - version 0.9.4, elusive early stopping implementation example ]( https://github.com/kperkins411/MXNet_Demo_Early-Stopping)
+### Machine Learning
+[ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)
+
+
+### Augmented Reality
+
+## Background
+Teaching, Crypto, SSL, C++, Android, Deep Learning
+
+## Interest
+Convolutional Neural Nets, AR
+
+## Current Research
+AR lazer googles (prov patent .....)
+
+## Student Projects
+Body Measurements<br>
+Better Amber Alert<br>
+Masters Advisor - AR vision App<BR>
+Amazon Alexa- Voice for enterprise database queries<br>
 
 You can use the [editor on GitHub](https://github.com/kperkins411/keith_perkins/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
