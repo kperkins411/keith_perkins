@@ -7,7 +7,6 @@
 ### Machine Learning
 [ K-means clustering and DBSCAN ]( https://github.com/kperkins411/Clustering_Demos)<BR>
 
-
 ### Augmented Reality
 armarker demo
 
@@ -15,9 +14,6 @@ armarker demo
 [ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)<BR>
 [ Android,OpenCV - App that looks at an image, recognizes all coins and determines the total value. ]( https://github.com/kperkins411/Count-coins-using-OpenCV)<BR>
 
-
-## Background
-Teaching, Crypto, SSL, C++, Android, Deep Learning
 
 ## Current Research
 AR lazer googles project.  A way to use AR headsets to show lazer beam location through light filtering lazer safety goggles.(Patent applied for, NASA collaboration, hosted elsewhere (sorry))
