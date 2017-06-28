@@ -19,8 +19,8 @@ armarker demo
 AR lazer googles project.  A way to use AR headsets to show lazer beam location through light filtering lazer safety goggles.(Patent applied for, NASA collaboration, hosted elsewhere (sorry))
 
 ## Classes I'm teaching
-[ Android Mobile Programming ]( https://github.com/kperkins411/OpenCVEdgeTest)<BR>
-[ C++ ]( https://cnuclasses.github.io/CS327)<BR>
+[ Android Mobile Programming ](  https://cnuclasses.github.io/CPSC475)<BR>
+[ C++ ]( https://cnuclasses.github.io/CPSC327)<BR>
 Operating Systems
 
 ## Student Projects I've mentored 
