@@ -1,6 +1,6 @@
 ### Deep Learning (mostly Convolutional Neural Nets)
-[ Mxnet - Chest X-Ray image analysis using Deep Transfer Learning]( https://github.com/kperkins411/MXNet-Chest-XRay-Evaluation)
-[ Mxnet - version 0.9.4, elusive early stopping implementation example ]( https://github.com/kperkins411/MXNet_Demo_Early-Stopping)
+[ Mxnet - Chest X-Ray image analysis using Deep Transfer Learning]( https://github.com/kperkins411/MXNet-Chest-XRay-Evaluation)<BR>
+[ Mxnet - version 0.9.4, elusive early stopping implementation example ]( https://github.com/kperkins411/MXNet_Demo_Early-Stopping)<BR>
 ### Machine Learning
 [ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)
 
