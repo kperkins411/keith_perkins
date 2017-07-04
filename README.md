@@ -10,7 +10,7 @@
 
 ## Computer Vision
 **[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo)** An Augmented Reality app that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list.  It paints a 3D image on any detected markers. See images and video for demo.<BR>
-**[ Android (Java),OpenCV - Image processing pipeline ]( https://github.com/kperkins411/OpenCVEdgeTest)**A class and tester that implements an image processing pipeline. Performs edge detection, color space shifting, and text display overlaying a loaded image.  <BR>
+**[ Android (Java),OpenCV - Image processing pipeline ]( https://github.com/kperkins411/OpenCVEdgeTest)** A class and tester that implements an image processing pipeline. Performs edge detection, color space shifting, and text display overlaying a loaded image.  <BR>
 **[ Python,OpenCV - Coin Counter]( https://github.com/kperkins411/Count-coins-using-OpenCV)** An application that recognizes coins in an image using hough circles and then sums the total value of them. ]<BR>
 
 ## Current Research
