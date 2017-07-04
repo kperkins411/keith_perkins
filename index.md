@@ -25,8 +25,8 @@ AR lazer googles project.  A way to use AR headsets to show lazer beam location 
 Operating Systems
 
 ## Student Projects I've mentored 
-Body Measurements<br>
-Better Amber Alert<br>
-Masters Advisor - AR vision App<BR>
-Amazon Alexa- Voice for enterprise database queries<br>
+Body Measurements - A virtual tailoring measurement system.  Uses Microsoft Kinnect to generate a 3D body avatar, then openGL and C++ to take perfect body measurements<br>
+Better Amber Alert - Uses bluetooth trackers and crowdsourced app to automate finding lost/kidnapped souls<br>
+AR-Based Color Correction and Object Detection - A masters thesis that developed algorithms to assist people with colorblindness.  <BR>
+Amazon Alexa- Voice application and skill for enterprise database queries<br>
 
