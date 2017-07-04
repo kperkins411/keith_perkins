@@ -8,7 +8,7 @@
 [ K-means clustering and DBSCAN ]( https://github.com/kperkins411/Clustering_Demos)<BR>
 
 ### Augmented Reality
-[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo) An Augmented Reality app that paints an that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list. See the video for demo.<BR>
+[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo) An Augmented Reality app that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list.  It paints a 3D image on any detected markers. See video for demo.<BR>
 
 
 ## Computer Vision
