@@ -8,7 +8,7 @@
 [ K-means clustering and DBSCAN ]( https://github.com/kperkins411/Clustering_Demos)<BR>
 
 ### Computer Vision
-[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo) An Augmented Reality app that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list.  It paints a 3D image on any detected markers. See images and video for demo.<BR>
+**[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo)** An Augmented Reality app that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list.  It paints a 3D image on any detected markers. See images and video for demo.<BR>
 [ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)<BR>
 [ Android,OpenCV - App that looks at an image, recognizes all coins and determines the total value. ]( https://github.com/kperkins411/Count-coins-using-OpenCV)<BR>
 
