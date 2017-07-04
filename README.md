@@ -6,7 +6,7 @@
 **[ Stanford CS231n: Convolutional Neural Networks for Visual Recognition]( https://github.com/kperkins411/CS231n_Assign2)** Assignment 2<BR>
 
 ## Machine Learning
-[ K-means clustering and DBSCAN ]( https://github.com/kperkins411/Clustering_Demos)<BR>
+**[ clustering demos ]( https://github.com/kperkins411/Clustering_Demos)** Python,  K-means and DBSCAN clustering demos for segmenting and displaying 3 dimensional data<BR>
 
 ## Computer Vision
 **[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo)** An Augmented Reality app that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list.  It paints a 3D image on any detected markers. See images and video for demo.<BR>
