@@ -8,7 +8,8 @@
 [ K-means clustering and DBSCAN ]( https://github.com/kperkins411/Clustering_Demos)<BR>
 
 ### Augmented Reality
-armarker demo
+[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo) An Augmented Reality app that paints an that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list. See the video for demo.<BR>
+
 
 ## Computer Vision
 [ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)<BR>
@@ -16,7 +17,7 @@ armarker demo
 
 
 ## Current Research
-AR lazer googles project.  A way to use AR headsets to show lazer beam location through light filtering lazer safety goggles.(Patent applied for, NASA collaboration, hosted elsewhere (sorry))
+AR lazer googles project.  A way to use AR headsets to show lazer beam location through light filtering lazer safety goggles.(Patent applied for, NASA collaboration, application repo is private)
 
 ## Classes I'm teaching
 [ Android Mobile Programming ](  https://cnuclasses.github.io/CPSC475)<BR>
