@@ -17,9 +17,9 @@
 **AR Laser Googles Project**  A flexible android application that enables laser operators to see laser beams using AR headsets that are otherwise blocked by safety goggles. Patent applied for, NASA collaboration, application repository is private.
 
 ## Classes I'm teaching
-[ Android Mobile Programming ](  https://cnuclasses.github.io/CPSC475)<BR>
-[ C++ ]( https://cnuclasses.github.io/CPSC327)<BR>
-Operating Systems
+**[ Android Mobile Programming ](  https://cnuclasses.github.io/CPSC475)** <BR>
+**[ C++ ]( https://cnuclasses.github.io/CPSC327)** <BR>
+**Operating Systems**
 
 ## Student Projects I've mentored 
 **Body Measurements** - A virtual tailoring measurement system.  Uses Microsoft Kinnect to generate a 3D body avatar, then openGL and C++ to take perfect body measurements<br>
