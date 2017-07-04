@@ -26,7 +26,7 @@ Operating Systems
 
 ## Student Projects I've mentored 
 <B>Body Measurements</B> - A virtual tailoring measurement system.  Uses Microsoft Kinnect to generate a 3D body avatar, then openGL and C++ to take perfect body measurements<br>
-Better Amber Alert - Uses bluetooth trackers and crowdsourced app to automate finding lost/kidnapped souls<br>
-AR-Based Color Correction and Object Detection - A masters thesis that developed algorithms to assist people with colorblindness.  <BR>
-Amazon Alexa- Voice application and skill for enterprise database queries<br>
+<B>Better Amber Alert </B> - An application that uses bluetooth trackers, and a client and server application to crowdsource and automate finding lost/kidnapped souls<br>
+<B>AR-Based Color Correction and Object Detection </B> - A masters thesis that developed algorithms to assist people with colorblindness.  <BR>
+<B>Amazon Alexa data query agent </B>- Voice application and skill for enterprise database queries<br>
 
