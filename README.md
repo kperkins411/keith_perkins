@@ -1,8 +1,8 @@
 ## Deep Learning (mostly Convolutional Neural Nets)
-[ Mxnet - Chest X-Ray image analysis using Deep Transfer Learning]( https://github.com/kperkins411/MXNet-Chest-XRay-Evaluation)<BR>
-[ Mxnet - version 0.9.4, elusive early stopping implementation example ]( https://github.com/kperkins411/MXNet_Demo_Early-Stopping)<BR>
-[ Stanford CS231n: Convolutional Neural Networks for Visual Recognition, Assignment 1]( https://github.com/kperkins411/CS231n_Assign1)<BR>
-[ Stanford CS231n: Convolutional Neural Networks for Visual Recognition, Assignment 2]( https://github.com/kperkins411/CS231n_Assign2)<BR>
+**[ Mxnet - Chest X-Ray image analysis using Deep Transfer Learning]( https://github.com/kperkins411/MXNet-Chest-XRay-Evaluation)**Chest X-Ray image analysis using Deep Transfer Learning and various pretrained convolutional neural nets (VGG, Inception). Written in python for MxNet deeplearning framework.<BR>
+**[ Mxnet - version 0.9.4, elusive early stopping implementation example ]( https://github.com/kperkins411/MXNet_Demo_Early-Stopping)**Modifications to enable early stopping in mxnet.<BR>
+**[ Stanford CS231n: Convolutional Neural Networks for Visual Recognition]( https://github.com/kperkins411/CS231n_Assign1)**  Assignment 1<BR>
+**[ Stanford CS231n: Convolutional Neural Networks for Visual Recognition]( https://github.com/kperkins411/CS231n_Assign2)** Assignment 2<BR>
 
 ## Machine Learning
 [ K-means clustering and DBSCAN ]( https://github.com/kperkins411/Clustering_Demos)<BR>
