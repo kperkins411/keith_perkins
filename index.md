@@ -1,13 +1,13 @@
-### Deep Learning (mostly Convolutional Neural Nets)
+## Deep Learning (mostly Convolutional Neural Nets)
 [ Mxnet - Chest X-Ray image analysis using Deep Transfer Learning]( https://github.com/kperkins411/MXNet-Chest-XRay-Evaluation)<BR>
 [ Mxnet - version 0.9.4, elusive early stopping implementation example ]( https://github.com/kperkins411/MXNet_Demo_Early-Stopping)<BR>
 [ Stanford CS231n: Convolutional Neural Networks for Visual Recognition, Assignment 1]( https://github.com/kperkins411/CS231n_Assign1)<BR>
 [ Stanford CS231n: Convolutional Neural Networks for Visual Recognition, Assignment 2]( https://github.com/kperkins411/CS231n_Assign2)<BR>
 
-### Machine Learning
+## Machine Learning
 [ K-means clustering and DBSCAN ]( https://github.com/kperkins411/Clustering_Demos)<BR>
 
-### Computer Vision
+## Computer Vision
 **[ C++ - AR Marker Demo]( https://github.com/kperkins411/AR_Marker_Demo)** An Augmented Reality app that demonstrates basic computer vision concepts such as greyscaling, thresholding, edge detection, homography, corner detection...its a long list.  It paints a 3D image on any detected markers. See images and video for demo.<BR>
 [ Android,OpenCV - Image processing pipeline including edge detection, color space shifting, and overlay text display ]( https://github.com/kperkins411/OpenCVEdgeTest)<BR>
 [ Android,OpenCV - App that looks at an image, recognizes all coins and determines the total value. ]( https://github.com/kperkins411/Count-coins-using-OpenCV)<BR>
