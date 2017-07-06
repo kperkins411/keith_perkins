@@ -15,9 +15,7 @@
     div.tab button {
         background-color: #333;
         float: left;
-/*         border-radius: 4px;*/
-/*         border:none; */
-        border: 1px solid #ddd;        
+        border: none;        
         color:#ddd;
         outline: none;
         cursor: pointer;
@@ -53,7 +51,7 @@
     <title>Keith Perkins</title>
   </head>
 
-  <body onload="loadPage('hobby.html')">
+  <body onload="loadContent('hobby.html')">
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -65,10 +63,9 @@
           
           <!-- Navigation bar see https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_right-->
           <div class="tab">
-            <button class="tablinks" onclick="loadPage( 'hobby.html')">Hobby Projects</button>
-            <button class="tablinks" onclick="loadPage('funded.html')">Funded Projects</button>
-            <button class="tablinks" onclick="loadPage('classes.html')">Classes I Teach</button>
-            <button class="tablinks" onclick="loadPage('mentor.html')">Mentoring</button>
+            <button class="tablinks" onclick="manageButtonSelect(event, 'hobby.html')">Projects</button>
+            <button class="tablinks" onclick="manageButtonSelect(event, 'classes.html')">Classes</button>
+            <button class="tablinks" onclick="manageButtonSelect(event, 'mentor.html')">Mentoring</button>
           </div>
         </header>
     </div>
@@ -77,8 +74,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <script>
-    function loadPage(name) {
-        $("#main_content_wrap").html("Loading...").load("./"+ name);
+    function loadContent(name){
+      $("#main_content_wrap").html("Loading...").load("./"+ name);
+    }
+    function manageButtonSelect(evt, name) {
+        loadContent(name)
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
@@ -88,6 +88,7 @@
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
+        evt.currentTarget.className += " active";
 }
 </script>
 
