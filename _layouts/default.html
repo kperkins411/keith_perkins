@@ -52,7 +52,7 @@
     <title>Keith Perkins</title>
   </head>
 
-  <body>
+  <body onload="loadPage('hobby.html')">
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -64,10 +64,10 @@
           
           <!-- Navigation bar see https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_right-->
           <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'hobby.html')">Hobby Projects</button>
-            <button class="tablinks" onclick="openCity(event, 'funded.html')">Funded Projects</button>
-            <button class="tablinks" onclick="openCity(event, 'classes.html')">Classes I Teach</button>
-            <button class="tablinks" onclick="openCity(event, 'mentor.html')">Mentoring</button>
+            <button class="tablinks" onclick="loadPage( 'hobby.html')">Hobby Projects</button>
+            <button class="tablinks" onclick="loadPage('funded.html')">Funded Projects</button>
+            <button class="tablinks" onclick="loadPage('classes.html')">Classes I Teach</button>
+            <button class="tablinks" onclick="loadPage('mentor.html')">Mentoring</button>
           </div>
         </header>
     </div>
@@ -76,27 +76,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
     <script>
-    function openCity(evt, name) {
+    function loadPage(name) {
         $("#main_content_wrap").html("Loading...").load("./"+ name);
-// //         var i, tabcontent, tablinks;
-// //         tabcontent = document.getElementsByClassName("tabcontent");
-// //         for (i = 0; i < tabcontent.length; i++) {
-// //             tabcontent[i].style.display = "none";
-// //         }
-// //         tablinks = document.getElementsByClassName("tablinks");
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
         for (i = 0; i < tablinks.length; i++) {
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
-// // //      document.getElementById(cityName).style.display = "block";
-// //         document.getElementById("content").innerHTML='<object type="text/html" data="' + name + '" ></object>';
-//         evt.currentTarget.className += " active";
 }
 </script>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {{ content }}
+        
       </section>
     </div>
 
