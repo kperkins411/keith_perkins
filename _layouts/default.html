@@ -3,43 +3,33 @@
 
   <head>
     <style>
-    body {font-family: "Lato", sans-serif;}
-        /* Style the tab */
-    div.tab {
-        overflow: hidden;
-        border: none;
-        background-color: #222;
-    }
+      ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+      }
 
-    /* Style the buttons inside the tab */
-    div.tab button {
-        background-color: white;
-        float: left;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        padding: 14px 16px;
-        transition: 0.3s;
-        font-size: 17px;
-    }
+      li {
+          float: left;
+      }
 
-    /* Change background color of buttons on hover */
-    div.tab button:hover {
-        background-color: #111;
-    }
+      li button {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+      }
 
-    /* Create an active/current tablink class */
-    div.tab button.active {
-        background-color: #444;
-    }
+      li a:hover:not(.active) {
+          background-color: #111;
+      }
 
-    /* Style the tab content */
-    .tabcontent {
-        display: none;
-        padding: 6px 12px;
-        border: none;
-        border-top: none;
-    }
+      .active {
+          background-color: #4CAF50;
+      }
     </style>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -60,18 +50,14 @@
 
           <h1 id="project_title">Keith Perkins</h1>
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-          <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'hobby.html')">Hobby Projects</button>
-            <button class="tablinks" onclick="openCity(event, 'funded.html')">Funded Projects</button>
-            <button class="tablinks" onclick="openCity(event, 'classes.html')">Classes I Teach</button>
-            <button class="tablinks" onclick="openCity(event, 'mentor.html')">Mentoring</button>
-          </div>
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
+          
+          <!-- Navigation bar see https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_right-->
+          <ul>
+            <li><button class="tablinks" onclick="openCity(event, 'hobby.html')">Hobby Projects</button></li>
+            <li><button class="tablinks" onclick="openCity(event, 'funded.html')">Funded Projects</button></li>
+            <li><button class="tablinks" onclick="openCity(event, 'classes.html')">Classes I Teach</button></li>
+            <li><button class="tablinks" onclick="openCity(event, 'mentor.html')">Mentoring</button></li>
+          </ul>
         </header>
     </div>
     
@@ -81,18 +67,18 @@
     <script>
     function openCity(evt, name) {
         $("#main_content_wrap").html("Loading...").load("./"+ name);
-//         var i, tabcontent, tablinks;
-//         tabcontent = document.getElementsByClassName("tabcontent");
-//         for (i = 0; i < tabcontent.length; i++) {
-//             tabcontent[i].style.display = "none";
-//         }
-//         tablinks = document.getElementsByClassName("tablinks");
-//         for (i = 0; i < tablinks.length; i++) {
-//             tablinks[i].className = tablinks[i].className.replace(" active", "");
-//         }
-// //      document.getElementById(cityName).style.display = "block";
-//         document.getElementById("content").innerHTML='<object type="text/html" data="' + name + '" ></object>';
-        evt.currentTarget.className += " active";
+// //         var i, tabcontent, tablinks;
+// //         tabcontent = document.getElementsByClassName("tabcontent");
+// //         for (i = 0; i < tabcontent.length; i++) {
+// //             tabcontent[i].style.display = "none";
+// //         }
+// //         tablinks = document.getElementsByClassName("tablinks");
+// //         for (i = 0; i < tablinks.length; i++) {
+// //             tablinks[i].className = tablinks[i].className.replace(" active", "");
+// //         }
+// // //      document.getElementById(cityName).style.display = "block";
+// //         document.getElementById("content").innerHTML='<object type="text/html" data="' + name + '" ></object>';
+//         evt.currentTarget.className += " active";
 }
 </script>
 
