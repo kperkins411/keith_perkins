@@ -56,7 +56,7 @@
     <title>Keith Perkins</title>
   </head>
 
-  <body onload="loadContent('hobby.html')">
+  <body onload="initialize()">
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -67,23 +67,25 @@
           <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           
           <!-- Navigation bar see https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_black_right-->
-          <div class="tab" align="center">
-            <button class="tablinks" onclick="manageButtonSelect(event, 'hobby.html')">Projects</button>
-            <button class="tablinks" onclick="manageButtonSelect(event, 'classes.html')">Classes</button>
-            <button class="tablinks" onclick="manageButtonSelect(event, 'mentor.html')">Mentoring</button>
+          <div class="tab" align="center" id = "buttonsDiv">
+              <!--loaded in initialize if needed-->
           </div>
         </header>
     </div>
     
     <!--for ajax-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+    <!--for loading various html-->
     <script>
-    function loadContent(name){
-      $("#main_content_wrap").html("Loading...").load("./"+ name);
+    function initialize(){
+       loadContent('#main_content_wrap','hobby.html');
+       loadContent('#buttonsDiv','buttons.html');
+    }
+    function loadContent(insertTag,name){
+      $(insertTag).html("Loading...").load("./"+ name);
     }
     function manageButtonSelect(evt, name) {
-        loadContent(name)
+        loadContent("#main_content_wrap",name)
         var i, tabcontent, tablinks;
         tabcontent = document.getElementsByClassName("tabcontent");
         for (i = 0; i < tabcontent.length; i++) {
@@ -94,7 +96,7 @@
             tablinks[i].className = tablinks[i].className.replace(" active", "");
         }
         evt.currentTarget.className += " active";
-}
+    }
 </script>
 
     <!-- MAIN CONTENT -->
