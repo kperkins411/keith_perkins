@@ -82,7 +82,7 @@
        loadContent('#buttonsDiv','buttons.html');
     }
     function loadContent(insertTag,name){
-      $(insertTag).html("Loading...").load("./"+ name);
+      $(insertTag).html("<!-- NO CONTENT -->").load("./"+ name);
     }
     function manageButtonSelect(evt, name) {
         loadContent("#main_content_wrap",name)
