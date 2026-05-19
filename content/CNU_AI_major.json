@@ -1,0 +1,552 @@
+{
+  "catalog": {
+    "name": "CNU Undergraduate Catalog",
+    "effective_year": "2026-27",
+    "institution": "Christopher Newport University",
+    "approval_note": "Approved for 2026-27 CNU Undergraduate Catalog"
+  },
+  "program": {
+    "name": "Artificial Intelligence",
+    "type": "Major",
+    "degree": "Bachelor of Science",
+    "description": [
+      "Artificial intelligence is an increasingly important technology that affects many disciplines, including science, engineering, business and public policy. Applications of artificial intelligence include machine learning, computer vision, natural language processing, robotics, data analysis and automated decision systems. Graduates with training in artificial intelligence work in fields such as data science, machine learning engineering, robotics, intelligent software development and research.",
+      "Artificial intelligence majors at Christopher Newport University study the computational, mathematical and scientific foundations required to design and deploy intelligent systems. Core courses provide a background in computer science, programming, mathematics and scientific computing. Advanced courses in the program focus on machine learning, neural networks, computer vision, large language models, data science and the engineering tools used to deploy modern AI systems.",
+      "Students also develop practical experience working with real datasets, training and evaluating machine learning models, building AI pipelines and deploying systems in cloud and high-performance computing environments. The program culminates in a capstone project in which students design and implement an original artificial intelligence system.",
+      "Graduates will be prepared for employment in artificial intelligence, data science and software development, or for further study in graduate programs in artificial intelligence, computer science or related fields.",
+      "Students pursuing the major in artificial intelligence are strongly encouraged to pursue studies in complementary academic areas where intelligent systems are widely applied. Minors or coursework in fields such as mathematics, physics, business, economics, cybersecurity or the natural sciences may provide valuable interdisciplinary perspectives."
+    ],
+    "graduation_requirements": {
+      "summary": "Degree requirements are those of the Bachelor of Science degree. In addition to completing the liberal learning curriculum, the artificial intelligence major requires successful completion of the listed courses with no more than two grades below C-.",
+      "grade_minimum": "C-",
+      "max_grades_below_minimum": 2
+    },
+    "sequencing_note": "The recommended sequence of courses integrates programming, mathematical foundations, machine learning, neural networks and large language models over four years to prepare students for modern artificial intelligence development workflows."
+  },
+  "requirements": [
+    {
+      "group_number": 1,
+      "category": "Programming and Computer Science Core",
+      "courses": ["CPSC 150", "CPSC 150L", "CPSC 250", "CPSC 250L", "CPSC 255", "CPSC 270", "CPSC 327", "CPSC 410", "CPSC 420"]
+    },
+    {
+      "group_number": 2,
+      "category": "Mathematics and Computational Foundations",
+      "courses": ["MATH 125", "MATH 140", "MATH 240", "MATH 250", "MATH 260", "MATH 335", "ENGR 213"]
+    },
+    {
+      "group_number": 3,
+      "category": "Science and Experimental Methods",
+      "options": [
+        ["PHYS 151", "PHYS 151L", "PHYS 152", "PHYS 152L"],
+        ["PHYS 201", "PHYS 201L", "PHYS 202", "PHYS 202L"]
+      ],
+      "note": "Choose one of the two physics sequences."
+    },
+    {
+      "group_number": 4,
+      "category": "Artificial Intelligence and Data Science Core",
+      "courses": ["DATA 201", "DATA 301", "CPSC 336", "CPSC 401", "CPSC 403"]
+    },
+    {
+      "group_number": 5,
+      "category": "Supporting Courses",
+      "courses": ["CPSC 440", "CPEN 371"]
+    },
+    {
+      "group_number": 6,
+      "category": "Major Elective",
+      "select": 2,
+      "options": ["CPSC 441", "CPSC 472", "CYBR 484", "CPSC 510", "PHYS 441", "PHYS 541", "MATH 380"],
+      "note": "Or other approved artificial intelligence electives."
+    },
+    {
+      "group_number": 7,
+      "category": "Capstone",
+      "courses": ["CPSC 497"]
+    }
+  ],
+  "courses": [
+    {
+      "code": "DATA 201",
+      "title": "Introduction to Data Science",
+      "category": "Artificial Intelligence and Data Science Core",
+      "description": "This course spends half of the time on data analysis/visualization and the second half is intro ML.",
+      "topics": [
+        "Python review: Data types, Text IO, Numpy operations, Matplotlib",
+        "Python & tools (Anaconda, Jupyter); no conda environments or venv at this point",
+        "Generative AI tools encouraged for biweekly projects (50% of grade) but not allowed on exams; must follow Elsevier rules for AI use",
+        "Data formats, data wrangling, time-series data",
+        "Pandas Series, Dataframe introduction and basic operations",
+        "Data Visualization (Chapters 5 & 9 from Edward Tufte): minimalism, data-ink ratio, no chart junk",
+        "Classification with kNN using the Iris Dataset; write kNN in numpy then use sklearn; feature normalization",
+        "Nonlinear Least Squares Regression (scipy.curve_fit), covariance matrix, initial parameters, failed fits",
+        "Overfitting and underfitting with polynomials (ties in later with NN)",
+        "Neural Network Introduction, History, AI Winters, Perceptron (using Tensorflow)",
+        "Activation functions: Sigmoid, relu",
+        "MNIST handwritten digit classifier with MLP and CNN",
+        "CIFAR 10 and 100 classification with CNNs",
+        "Using pretrained models from Hugging Face (YOLO in real time with student webcams and VDOT cameras): image segmentation, object recognition"
+      ]
+    },
+    {
+      "code": "DATA 301",
+      "title": "Data Science Methodology",
+      "category": "Artificial Intelligence and Data Science Core",
+      "description": "This course is focused on ML with structured data, python and pandas.",
+      "topics": [
+        "Python environments & tools (Anaconda, Jupyter)",
+        "General approach to a data science question",
+        "Cleaning data (duplicates & NaNs, text cleanup, categorical data)",
+        "Feature scaling & dimensionality reduction (PCA, t-SNE, UMAP)",
+        "Pandas pipelines",
+        "Data sampling for large datasets",
+        "Non-supervised learning: K-Means, DBSCAN, HDBSCAN",
+        "Elbow/Silhouette methods",
+        "Supervised learning",
+        "Dataset train/test split",
+        "Bias/Variance tradeoff",
+        "Regression",
+        "Decision trees",
+        "Random forests",
+        "Cross-validation & hyperparameter tuning",
+        "Precision/Recall, F1 score, confusion matrix",
+        "Explainable AI concepts (feature importance, permutation importance, PDP, ICE plots, SHAP values)",
+        "Gradient boosted trees",
+        "Time series analysis"
+      ]
+    },
+    {
+      "code": "CPSC 336",
+      "title": "Cloud, Linux, and Network Administration",
+      "category": "Artificial Intelligence and Data Science Core",
+      "description": "Study of Linux-based network and cloud systems, with emphasis on command-line administration, TCP/IP networking, secure remote access, server configuration, virtualization, cloud compute, storage, and database services. Students configure and administer systems such as web servers, database servers, virtual machines, and cloud instances, with attention to functionality, reliability, and security.",
+      "note": "The course name and content description are being changed from the prior listing to the version shown here."
+    },
+    {
+      "code": "CPSC 401",
+      "title": "Neural Foundations & Computer Vision",
+      "category": "Artificial Intelligence and Data Science Core",
+      "credits": 3,
+      "approval_note": "Approved for 2026-27 CNU Undergraduate Catalog",
+      "description": "Introduces students to the perception layer of modern AI systems through hands-on development of deep learning models for visual tasks. Using PyTorch as the primary framework, students learn to construct and train neural networks beginning with tensor operations, autograd, and modern optimization techniques before progressing to convolutional neural networks for spatial feature extraction. The course examines contemporary deep architectures such as ResNet and emphasizes transfer learning using pre-trained models from the timm ecosystem. Students then apply these methods to real-world computer vision problems, including training and evaluating object detection systems based on the YOLO architecture and working with practical evaluation metrics such as Intersection over Union and mean Average Precision. The course concludes with segmentation methods such as U-Net and an introduction to exporting trained models to ONNX for deployment, preparing students for subsequent work on hardware optimization and edge AI systems.",
+      "schedule": [
+        {
+          "weeks": "1-2",
+          "topic": "Backprop",
+          "content": "Review of partial differentiation, chain rule. Intro to backprop."
+        },
+        {
+          "weeks": "3-4",
+          "topic": "The PyTorch Ecosystem",
+          "content": "Tensors & Autograd: deep dive into PyTorch tensors, GPU acceleration, computational graphs. Foundations: building an MLP directly in PyTorch. Modern loss functions (CrossEntropy, Focal Loss) and optimizers (SGD with momentum, AdamW)."
+        },
+        {
+          "weeks": "5-7",
+          "topic": "Convolutional Neural Networks (CNNs)",
+          "content": "Spatial feature extraction: math and intuition of convolutions, pooling, stride, padding. Training pipelines: building early ConvNets. Mastering PyTorch Dataset and DataLoader classes. Robustness: data augmentation strategies and handling class imbalance."
+        },
+        {
+          "weeks": "8-10",
+          "topic": "Modern Architectures & Transfer Learning",
+          "content": "Deep networks: vanishing gradient problem and how residual connections (ResNet) solve it. The timm library: state-of-the-art pre-trained weights. Fine-tuning: freezing layers, replacing classification heads, customizing loss functions for domain-specific tasks."
+        },
+        {
+          "weeks": "11-12",
+          "topic": "Real-Time Object Detection",
+          "content": "Beyond classification: bounding boxes, anchor boxes, YOLO (You Only Look Once) architecture. Evaluation: mean Average Precision (mAP) and Intersection over Union (IoU)."
+        },
+        {
+          "weeks": "13-14",
+          "topic": "Segmentation & Edge Readiness",
+          "content": "Pixel-level prediction: semantic and instance segmentation using U-Net architectures, crucial for medical or industrial defect imaging."
+        }
+      ]
+    },
+    {
+      "code": "CPSC 403",
+      "title": "Large Language Models & Agentic Systems",
+      "category": "Artificial Intelligence and Data Science Core",
+      "credits": 3,
+      "approval_note": "Approved for 2026-27 CNU Undergraduate Catalog",
+      "description": "Examines the architecture and practical deployment of modern language models, beginning with the transformer framework that underlies contemporary AI systems. Students study the mathematics of attention and implement simplified encoder-decoder transformers before transitioning to modern development workflows using the Hugging Face ecosystem. The course emphasizes practical model adaptation under real hardware constraints through parameter-efficient fine-tuning methods such as LoRA and QLoRA applied to open-weight models. Students then build retrieval-augmented generation (RAG) pipelines using vector embeddings, semantic search, and vector databases to integrate external knowledge with language models. The final portion of the course focuses on agentic AI systems, where models interact with tools and external environments through function calling and structured reasoning frameworks to execute multi-step tasks and autonomous workflows.",
+      "schedule": [
+        {
+          "weeks": "1-3",
+          "topic": "Transformers",
+          "content": "The attention mechanism: why RNNs/LSTMs hit a wall. Mathematics of Scaled Dot-Product Attention: Attention(Q, K, V) = softmax(QK^T / sqrt(d_k)) V. Architecture: deep dive into the 'Attention is All You Need' paper."
+        },
+        {
+          "weeks": "3-5",
+          "topic": "The Hugging Face Ecosystem & PEFT/LoRA",
+          "content": "Hugging Face transformers and datasets libraries. Parameter-Efficient Fine-Tuning (PEFT) and Low-Rank Adaptation (LoRA/QLoRA). Lab: fine-tuning an open-weight model (e.g., Llama 3 or Mistral) on technical manuals or scientific papers (tie-in to JLab)."
+        },
+        {
+          "weeks": "6-7",
+          "topic": "Reinforcement Learning Basics",
+          "content": "How models learn behavior from feedback rather than labels."
+        },
+        {
+          "weeks": "8-10",
+          "topic": "Retrieval-Augmented Generation (RAG)",
+          "content": "The modern data stack: vector embeddings and cosine similarity. Setting up vector databases (ChromaDB). Ingestion & retrieval: document parsing, chunking strategies (recursive vs. semantic), basic semantic search. Advanced RAG: improving context quality, bi-encoders for embedding, cross-encoders for re-ranking."
+        },
+        {
+          "weeks": "11-14",
+          "topic": "Agentic Workflows & Tool Calling",
+          "content": "Beyond text generation: teaching LLMs to interact with environments. The ReAct (Reasoning and Acting) framework. Function calling: equipping LLMs with external tools (calculators, SQL executors, Python REPLs, web search). Multi-step reasoning: autonomous pipelines that break down complex prompts into actionable plans, execute them, and evaluate results."
+        }
+      ]
+    },
+    {
+      "code": "CPSC 497",
+      "title": "Capstone Project in Artificial Intelligence",
+      "category": "Capstone",
+      "approval_note": "Approved for 2026-27 CNU Undergraduate Catalog",
+      "description": "Students apply machine learning, data engineering, and algorithmic foundations to propose, architect, and deploy a semester-long artificial intelligence project. The project requires a computationally significant effort, integrating data pipeline construction, model selection and optimization (e.g., hyperparameter tuning or fine-tuning), and rigorous performance validation. The course follows a structured lifecycle, beginning with selecting and defending a technical project proposal. Once approved, weekly status updates are expected alongside two intermediate presentations. This process culminates in a final project submission, defense, and poster presentation."
+    },
+    {
+      "code": "CYBR 484",
+      "title": "AI Applications in Cybersecurity",
+      "category": "Major Elective",
+      "approval_note": "Approved for 2026-27 CNU Undergraduate Catalog",
+      "description": "Examines the use of artificial intelligence to analyze and defend modern computing systems. Students learn to treat network traffic, system logs, and executable files as datasets that can be analyzed with statistical and machine learning methods. Using Python, students build tools for parsing security data, detecting anomalous network activity, classifying malware, and identifying phishing attempts. The course also introduces techniques for securing AI-enabled systems, including defenses against prompt injection and related attacks on automated decision systems. Emphasis is placed on practical workflows for threat detection, investigation, and risk prioritization within complex computing environments."
+    },
+    {
+      "code": "CPSC 441",
+      "title": "Big Data Technologies",
+      "category": "Major Elective",
+      "format": "3-3-0",
+      "prerequisites": ["MATH 235 or MATH 260", "CPSC 336", "CPSC 440"],
+      "description": "Covers facets of cloud computing and big data management, including the study of the architecture of the cloud computing model with respect to virtualization, multitenancy, privacy, security, cloud data management and indexing, scheming and cost analysis; also includes relevant programming models, crowd sourcing and data provenance."
+    },
+    {
+      "code": "CPSC 510",
+      "title": "Artificial Intelligence I",
+      "category": "Major Elective",
+      "format": "3-3-0",
+      "term": "Fall",
+      "description": "An introduction to the mathematical and computational foundations of artificial intelligence. Its emphasis is on those elements of artificial intelligence that are most useful for practical applications. Topics include heuristic search, problem solving, game playing, knowledge representation, logical inference, planning, reasoning under uncertainty, expert systems, machine learning and language understanding. Includes Markov Decision Processes (MDP) and Reinforcement Learning, Hidden Markov Models, Bayes nets, and Naïve Bayes. Programming assignments are required."
+    },
+    {
+      "code": "CPSC 472",
+      "title": "Introduction to Robotics",
+      "category": "Major Elective",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 255 or CPSC 256", "MATH 235 or MATH 260 or ENGR 210 or PHYS 340"],
+      "prerequisite_grade": "C- or higher",
+      "description": "An overview of applied robotics. Covers introductions to configuration space representations, rigid body transforms in 2D and 3D, robot kinematics, basic control theory, motion planning, perception, and machine decision making. Perception topics include basic computer vision and laser rangefinder (LIDAR)-based obstacle detection and mapping. Hands-on development and system integration using various robotic platforms. Programming will be done in Ubuntu Linux in a mixture of C++ and Python; no prior experience is required, but students will be expected to self-teach the specifics necessary to complete the projects."
+    },
+    {
+      "code": "PHYS 441",
+      "title": "Modeling and Simulation",
+      "category": "Major Elective",
+      "format": "3-3-0",
+      "prerequisites": ["PHYS 152 or PHYS 202", "CPSC 250", "MATH 140 or MATH 148"],
+      "prerequisite_alternative": "Consent of instructor",
+      "term": "Spring, odd-numbered years",
+      "description": "The modeling and simulation of physical systems. Applying software methodologies to the solution of physical problems. Lectures will typically involve a short review of some physics topic such as Keplerian motion, followed by an extensive discussion on the modeling and simulation of the problem."
+    },
+    {
+      "code": "MATH 380",
+      "title": "Numerical Analysis I",
+      "category": "Major Elective",
+      "format": "3-3-0",
+      "prerequisites": ["MATH 240", "MATH 260"],
+      "prerequisite_grade": "C- or higher",
+      "term": "Fall, odd-numbered years",
+      "description": "A survey of numerical methods for scientific and engineering problems. Topics include root-finding techniques, polynomial and spline interpolation, numerical differentiation and integration, and the numerical solution of initial value problems for ordinary differential equations. Consideration will be given to theoretical concepts and to efficient computation procedures. Computer projects will be required."
+    },
+    {
+      "code": "CPSC 150",
+      "title": "Introduction to Programming",
+      "category": "Computer Science",
+      "format": "3-3-0",
+      "attributes": ["LLFR"],
+      "corequisites": ["CPSC 150L"],
+      "description": "An introduction to problem solving and programming. Topics include using primitive and object types, defining Boolean and arithmetic expressions, using selection and iterative statements, defining and using methods, defining classes, creating objects, and manipulating arrays. Emphasis is placed on designing, coding, and testing programs using the above topics. Satisfies the logical reasoning foundation requirement."
+    },
+    {
+      "code": "CPSC 150L",
+      "title": "Introduction to Programming Laboratory",
+      "category": "Computer Science",
+      "format": "1-0-3",
+      "corequisites": ["CPSC 150"],
+      "description": "Laboratory course supports the concepts in CPSC 150 lecture with hands-on programming activities and language-specific implementation. Laboratory exercises stress sound design principles, programming style, documentation, and debugging techniques. Lab fees apply each term."
+    },
+    {
+      "code": "CPSC 250",
+      "title": "Programming for Data Manipulation",
+      "category": "Computer Science",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 150", "CPSC 150L"],
+      "prerequisite_grade": "C- or higher",
+      "corequisites": ["CPSC 250L", "MATH 135 or 140 or 148"],
+      "prerequisite_alternative": "Permission of department chair",
+      "description": "Builds upon concepts taught in CPSC 150 and provides continuing study of data storage and manipulation, and introduces their application to scientific computing and visualization. Specific topics include object-oriented design, programming style, debugging, and algorithm design. Incorporates the use of existing libraries for data processing and visualization."
+    },
+    {
+      "code": "CPSC 250L",
+      "title": "Programming for Data Manipulation Laboratory",
+      "category": "Computer Science",
+      "format": "1-0-3",
+      "prerequisites": ["CPSC 150", "CPSC 150L"],
+      "prerequisite_grade": "C- or higher",
+      "corequisites": ["CPSC 250"],
+      "description": "Laboratory course supports the concepts in CPSC 250 lecture with hands-on programming activities and language-specific implementation. Laboratory exercises stress sound design principles."
+    },
+    {
+      "code": "CPSC 255",
+      "title": "Programming for Applications",
+      "category": "Computer Science",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 250"],
+      "prerequisite_grade": "C- or higher",
+      "prerequisite_alternative": "Consent of instructor",
+      "description": "A study of programming and problem solving using a scalable structured programming language. The course assumes competency with programming and problem solving using variables, conditional statements, loops, classes (objects), and arrays. Begins with a brief introduction to these prior concepts, before moving on to more advanced topics such as class inheritance and interfaces, generics, and beginning data structures such as linked lists, stacks, and queues. Includes advanced techniques such as exceptions, recursion, networking, and data structures."
+    },
+    {
+      "code": "CPSC 270",
+      "title": "Data and File Structures",
+      "category": "Computer Science",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 255"],
+      "prerequisite_grade": "C- or higher",
+      "corequisites": ["ENGR 213"],
+      "description": "Study of objects and data structures. Trees, graphs, heaps with performance analysis of related algorithms. Structure, search, sort/merge, and retrieval of external files. Programming assignments will involve application of the topics covered."
+    },
+    {
+      "code": "CPSC 327",
+      "title": "C++ Programming",
+      "category": "Computer Science",
+      "format": "3-3-0",
+      "former_code": "CPSC 427",
+      "prerequisites": ["ENGR 213", "CPSC 255"],
+      "prerequisite_grade": "C- or higher in CPSC 255",
+      "description": "Designed for students who already know how to program, but do not know C++. A comprehensive introduction to C++. Emphasizes basic C++, in particular memory management, inheritance, and features needed for low-level programming."
+    },
+    {
+      "code": "CPSC 410",
+      "title": "Operating Systems I",
+      "category": "Computer Science",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 270", "CPSC 327"],
+      "description": "Introduction to operating systems, I/O processing, interrupt structure and multiprocessing-multiprogramming, job management, resource management, batch and interactive processing, memory management, multithreaded programming in C++, deadlock problems, thread synchronization. About half of the course covers multithreaded systems, atomics, mutexes, races, condition variables, and semaphores."
+    },
+    {
+      "code": "CPSC 420",
+      "title": "Algorithms",
+      "category": "Computer Science",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 270", "ENGR 213"],
+      "description": "The application of analysis and design techniques to numerical and non-numerical algorithms which act on data structures. Examples will be taken from areas such as combinatorics, numerical analysis, systems programming, and artificial intelligence."
+    },
+    {
+      "code": "CPSC 440",
+      "title": "Database Management Systems",
+      "category": "Supporting Courses",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 250", "CPSC 250L"],
+      "description": "Database (DB) concepts. Relational, hierarchical, and network models. Query languages, data sub-languages, and schema representations. The DB environment: DB administration, security, dictionaries, integrity, backup, and recovery. May be taken as research intensive."
+    },
+    {
+      "code": "MATH 125",
+      "title": "Elementary Statistics",
+      "category": "Mathematics and Computational Foundations",
+      "format": "3-3-0",
+      "attributes": ["LLFM"],
+      "description": "A general survey of descriptive and inferential statistics. Topics include descriptive analysis of univariate and bivariate data, probability, standard distributions, sampling, estimation, hypothesis testing, and linear regression. Students may not receive credit for this course after receiving a grade of C- or higher in MATH 435.",
+      "topics": [
+        "Course introduction and expectations",
+        "Terminology, sampling (§1.1-1.2)",
+        "Terminology continued (§1.3)",
+        "Frequency distributions, histograms (§2.1)",
+        "Measures of center and variation (§3.1-3.2)",
+        "Quartiles and boxplots (§3.3)",
+        "Scatter diagrams and linear correlation (§4.1)",
+        "Linear regression (§4.2)",
+        "Test 1 (§1.1-1.3, 2.1, 3.1-3.3, 4.1-4.2)",
+        "Probability basics, addition rule, multiplication rule (§5.1)",
+        "Contingency tables (§5.2)",
+        "Trees and counting techniques (§5.3)",
+        "Random variables, discrete probability distributions, expected value (§6.1)",
+        "Binomial probability distribution (§6.2)",
+        "Continuous probability distributions (§7.1)",
+        "Standard normal distribution (§7.2)",
+        "Assessing normality (§7.3)",
+        "Test 2 (§5.1-3, 6.1-3, 7.1-3)",
+        "Sampling distributions (§7.4)",
+        "Central Limit Theorem (§7.5)",
+        "Normal approximation (§7.6)",
+        "Estimating µ when σ is known (§8.1)",
+        "Estimating µ when σ is unknown (§8.2)",
+        "Estimating p in the binomial distribution (§8.3)",
+        "Test 3 (§7.4-7.6, 8.1-8.3)",
+        "Introduction to statistical tests (§9.1)",
+        "Testing the mean µ (§9.2)",
+        "Testing a proportion p (§9.3)",
+        "Testing σ² or σ (§11.3)",
+        "Test 4 (§9.1-9.3, 11.3)",
+        "Final exam, cumulative"
+      ]
+    },
+    {
+      "code": "MATH 140",
+      "title": "Calculus and Analytic Geometry",
+      "category": "Mathematics and Computational Foundations",
+      "format": "4-4-1",
+      "attributes": ["LLFM"],
+      "prerequisites": ["MATH 130 or MATH 132"],
+      "prerequisite_grade": "C- or higher (MATH 132 preferred)",
+      "prerequisite_alternative": "Acceptable score on the Calculus Readiness Assessment",
+      "description": "An introduction to the calculus of elementary functions, continuity, derivatives, methods of differentiation, the Mean Value Theorem, curve sketching, applications of the derivative, the definite integral, the Fundamental Theorems of Calculus, indefinite integrals, and logarithmic and exponential functions. The software package Mathematica will be used."
+    },
+    {
+      "code": "MATH 240",
+      "title": "Intermediate Calculus",
+      "category": "Mathematics and Computational Foundations",
+      "format": "4-4-0",
+      "prerequisites": ["MATH 140 or MATH 148"],
+      "prerequisite_grade": "C- or higher",
+      "description": "Techniques of integration, L'Hospital's Rule, applications of integration, approximations, Taylor's Theorem, sequences and limits, series of numbers and functions, power series, and Taylor series. The software package Mathematica will be used."
+    },
+    {
+      "code": "MATH 250",
+      "title": "Multivariable Calculus",
+      "category": "Mathematics and Computational Foundations",
+      "format": "3-3-0",
+      "prerequisites": ["MATH 240"],
+      "prerequisite_grade": "C- or higher",
+      "description": "An introduction to the calculus of real-valued functions of more than one variable. The geometry of three-space, vector-valued functions, partial and directional derivatives, multiple and iterated integrals, and applications. The software package Mathematica will be used."
+    },
+    {
+      "code": "MATH 260",
+      "title": "Linear Algebra",
+      "category": "Mathematics and Computational Foundations",
+      "format": "3-3-0",
+      "prerequisites": ["MATH 240 or MATH 245"],
+      "prerequisite_grade": "C- or higher",
+      "description": "Systems of linear equations, matrix operations, determinants, vectors and vector spaces, independence, bases and dimension, coordinates, linear transformations and matrices, eigenvalues and eigenvectors."
+    },
+    {
+      "code": "MATH 335",
+      "title": "Applied Probability",
+      "category": "Mathematics and Computational Foundations",
+      "format": "3-3-0",
+      "prerequisites": ["MATH 240"],
+      "prerequisite_grade": "C- or higher",
+      "term": "Fall",
+      "description": "Elementary probability theory including combinatorics, distributions of random variables, conditional probability, and moment generating functions. An introduction to stochastic processes including such topics as Markov chains, random walks, and queuing theory. Case studies may be considered. Computer projects may be required.",
+      "topics": [
+        "Probability spaces",
+        "Conditional probability and independence",
+        "Common probability distributions",
+        "Discrete spaces vs. continuous spaces",
+        "Random variables",
+        "Sums of random variables",
+        "Convergence and limit theorems"
+      ],
+      "textbook": {
+        "title": "Probability: Lectures and Labs",
+        "author": "Mark Huber",
+        "url": "https://textbooks.aimath.org/textbooks/approved-textbooks/huber/",
+        "open_source": true
+      }
+    },
+    {
+      "code": "ENGR 213",
+      "title": "Discrete Structures for Computer Applications",
+      "category": "Mathematics and Computational Foundations",
+      "format": "3-3-0",
+      "prerequisites": ["CPSC 150"],
+      "description": "Fundamental mathematical tools used in the analysis of algorithms and data structures, including logic, sets and functions, recursive algorithms and recurrence relations, combinatorics, and graphs."
+    },
+    {
+      "code": "PHYS 151",
+      "title": "College Physics I",
+      "category": "Science and Experimental Methods",
+      "format": "3-3-0",
+      "attributes": ["AINW"],
+      "prerequisites": ["High school algebra and trigonometry"],
+      "prerequisite_alternative": "Consent of instructor",
+      "sequence": "PHYS 151-152",
+      "description": "A presentation of the major concepts of physics, using algebra and trigonometry. For science students (but not for engineering, physics, or mathematics students). Topics covered across PHYS 151-152 include mechanics, thermodynamics, waves, electromagnetism, optics, and modern physics."
+    },
+    {
+      "code": "PHYS 152",
+      "title": "College Physics II",
+      "category": "Science and Experimental Methods",
+      "format": "3-3-0",
+      "attributes": ["AINW"],
+      "prerequisites": ["PHYS 151"],
+      "sequence": "PHYS 151-152",
+      "description": "Continuation of PHYS 151. Topics covered across PHYS 151-152 include mechanics, thermodynamics, waves, electromagnetism, optics, and modern physics."
+    },
+    {
+      "code": "PHYS 151L",
+      "title": "College Physics I Laboratory",
+      "category": "Science and Experimental Methods",
+      "format": "1-0-3",
+      "attributes": ["AINW"],
+      "corequisites": ["PHYS 151"],
+      "description": "Physics laboratory activities to accompany the lecture part of the course. Introduces fundamental physical principles, rudimentary data analysis, and computer-aided control and data acquisition. Lab fees apply each term."
+    },
+    {
+      "code": "PHYS 152L",
+      "title": "College Physics II Laboratory",
+      "category": "Science and Experimental Methods",
+      "format": "1-0-3",
+      "attributes": ["AINW"],
+      "corequisites": ["PHYS 152"],
+      "description": "Physics laboratory activities to accompany the lecture part of the course. Lab fees apply each term."
+    },
+    {
+      "code": "PHYS 201",
+      "title": "University Physics I",
+      "category": "Science and Experimental Methods",
+      "format": "3-3-0",
+      "attributes": ["AINW"],
+      "corequisites": ["MATH 130 or MATH 132 or MATH 140 or MATH 148"],
+      "description": "A first-semester, calculus-based introductory physics course. Basic principles of mechanics are developed. Topics include units, measurement, vectors, displacement, velocity, acceleration, force, equilibrium, mass, Newton's laws, work, energy, and momentum."
+    },
+    {
+      "code": "PHYS 201L",
+      "title": "University Physics I Laboratory",
+      "category": "Science and Experimental Methods",
+      "format": "1-0-3",
+      "attributes": ["AINW"],
+      "corequisites": ["PHYS 201"],
+      "description": "The first semester of physics laboratory experiences to accompany the lecture part of the course. Introduces experimental techniques, data analysis, data analysis tools, and technical report writing utilizing the fundamental physical principles introduced in lecture. Computer use is integrated throughout. Lab fees apply each term."
+    },
+    {
+      "code": "PHYS 202",
+      "title": "University Physics II",
+      "category": "Science and Experimental Methods",
+      "format": "3-3-0",
+      "attributes": ["AINW"],
+      "prerequisites": ["PHYS 201"],
+      "corequisites": ["MATH 140 or MATH 148"],
+      "description": "A second-semester, calculus-based introductory physics course. Covers electricity, including electrostatics and electric fields, Gauss's law, electric potential, capacitors, dielectrics, current, resistance, DC circuits, magnetic fields, inductance, and AC currents."
+    },
+    {
+      "code": "PHYS 202L",
+      "title": "University Physics II Laboratory",
+      "category": "Science and Experimental Methods",
+      "format": "1-0-3",
+      "attributes": ["AINW"],
+      "corequisites": ["PHYS 202"],
+      "description": "The second semester of physics laboratory experiences to accompany the lecture part of the course. Introduces fundamental physical principles, data analysis skills, and data analysis tools. Computer use is integrated throughout. Lab fees apply each term."
+    },
+    {
+      "code": "CPEN 371",
+      "title": "Computer Ethics",
+      "category": "Supporting Courses",
+      "format": "2-2-0",
+      "attributes": ["WI"],
+      "prerequisites": ["ENGL 223"],
+      "prerequisite_grade": "C- or higher",
+      "additional_requirement": "Major or minor in PCSE",
+      "description": "Covers contemporary ethical issues in science and engineering. A framework for professional activity is developed, which involves considerations and decisions of social impact. Current examples will be studied, discussed, and reported: IEEE and ACM codes of ethics, software and hardware property law, privacy, social implications of computers, responsibility and liabilities, and computer crime."
+    }
+  ]
+}
