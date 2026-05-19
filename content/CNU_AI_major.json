@@ -179,7 +179,7 @@
         {
           "weeks": "3-5",
           "topic": "The Hugging Face Ecosystem & PEFT/LoRA",
-          "content": "Hugging Face transformers and datasets libraries. Parameter-Efficient Fine-Tuning (PEFT) and Low-Rank Adaptation (LoRA/QLoRA). Lab: fine-tuning an open-weight model (e.g., Llama 3 or Mistral) on technical manuals or scientific papers (tie-in to JLab)."
+          "content": "Hugging Face transformers and datasets libraries. Parameter-Efficient Fine-Tuning (PEFT) and Low-Rank Adaptation (LoRA/QLoRA). Lab: fine-tuning an open-weight model (e.g., Llama 3 or Mistral) on technical manuals or scientific papers."
         },
         {
           "weeks": "6-7",
